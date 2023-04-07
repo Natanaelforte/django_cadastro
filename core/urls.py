@@ -1,9 +1,9 @@
 from django.urls import path
 
 
-from core.views import index, contact
+from core.views import login, register
 
 urlpatterns = [
-    path('', index),
-    path('contato', contact),
+    path('', login),
+    path('cadastro', register),
  ]
